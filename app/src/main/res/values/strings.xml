@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">AIS Live TV</string>
+    <dimen name="count">10dp</dimen>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- LandingPage -->
+    <string name="txt_landingpage_back_to_exit">Please click BACK again to exit</string>
+
+    <!-- Request OTP -->
+    <string name="input_phone">หมายเลขโทรศัพท์เอไอเอส</string>
+    <string name="btn_forget_password_submit">ขอรหัสผ่านใหม่</string>
+    <string name="otp_request_error_phone">หมายเลขโทรศัพท์ไม่ถูกต้อง</string>
+    <string name="otp_request_message_1">กรุณากรอกหมายเลขโทรศัพท์มือถือเฉพาะเครือข่าย AIS เท่านั้น เพื่อใช้ยืนยันความเป็นสมาชิก AIS Live TV</string>
+    <string name="otp_request_message_2">เข้าสู่ระบบด้วยอีเมล</string>
+    <string name="otp_request_dialog_title">"Welcome to AIS Live TV"</string>
+    <string name="otp_request_dialog_message_1">กรุณากรอก อีเมลและรหัสผ่าน ที่เคยลงทะเบียน เพื่อเข้าสู่ระบบ</string>
+    <string name="otp_request_dialog_edittext_email">กรุณากรอกอีเมล</string>
+    <string name="otp_request_dialog_edittext_password">กรุณากรอกรหัสผ่าน</string>
+    <string name="otp_request_dialog_btn_sign_in">เข้าสู่ระบบ</string>
+    <string name="otp_request_dialog_btn_cancel">ยกเลิก</string>
+
+    <!-- Validate OTP -->
+    <string name="register_title">ลงทะเบียน</string>
+    <string name="register_confirm_user">การยืนยันตัวตน</string>
+    <string name="register_message_ais">หมายเลขโทรศัพท์เอไอเอส</string>
+    <string name="register_message_1">กรุณากรอกหมายเลขโทรศัพท์มือถือเฉพาะเครือข่าย AIS เท่านั้น เพื่อใช้ยืนยันการสมัครสมาชิก AIS Live TV</string>
+    <string name="register_message_2">*หมายเหตุ สำหรับลูกค้าที่เป็นสมาชิก GMMZ On AIS กรุณากรอกเบอร์มือถือที่เคยใช้ในการสมัครสมาชิกบริการ</string>
+    <string name="register_password">รหัสผ่านที่ได้รับ</string>
+    <string name="register_confirm_password">ยืนยันรหัสผ่าน</string>
+    <string name="register_get_password_again">ขอรหัสผ่านใหม่</string>
+    <string name="register_cancel">ยกเลิก</string>
+    <string name="register_confirm">ยืนยัน</string>
+    <string name="register_error">กรุณากรอกข้อมูลให้ครบถ้วน และรหัสผ่านต้องไม่น้อยกว่า 6 ตัวอักษร</string>
+    <string name="otp_validate_error_otp">OTP ไม่ถูกต้อง</string>
+
+    <string name="request_password_title">ขอรหัสผ่าน</string>
+    <string name="request_password_title_username">Username</string>
+    <string name="request_password_title_phone">หมายเลขโทรศัพท์</string>
+    <string name="request_password_title_otp">รหัสผ่านที่ได้รับ</string>
+
+    <!-- Setting -->
+    <string name="txt_setting_title">การตั้งค่า</string>
+    <string name="txt_setting_name">ชื่อหน่วยงาน: </string>
+    <string name="txt_setting_code">รหัสหน่วยงาน: </string>
+    <string name="txt_setting_new_password">รหัสผ่านใหม่</string>
+    <string name="txt_setting_confirm_password">ยืนยันรหัสผ่านใหม่</string>
+    <string name="btn_setting_submit">บันทึก</string>
+    <string name="btn_setting_cancel">ยกเลิก</string>
+    <string name="txt_setting_password_not_match">ข้อมูลไม่ถูกต้อง</string>
+
+    <!-- Home -->
+    <string name="txt_select_your_menu">เลือกเมนู</string>
+    <string name="btn_home_public_media">สปอตรวม</string>
+    <string name="btn_home_private_media">สปอตส่วนตัว</string>
+    <string name="btn_home_project">งานแห่</string>
+    <string name="btn_home_map">ดูแผนที่</string>
+    <string name="btn_home_payment">จ่ายเงิน</string>
+    <string name="btn_home_internet_audio">ถ่ายทอดเสียง</string>
+    <string name="btn_home_user_information">ข้อมูลส่วนตัว</string>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >AIS Live TV</item>
+        <item >Home</item>
+        <item >Find People</item>
+        <item >Photos</item>
+        <item >Communities</item>
+        <item >Pages</item>
+        <item >What\'s Hot</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+    </array>
+
+    <string-array name="home_menu">
+        <item>ข่าวสาร</item>
+        <item>ข้อมูลการใช้พลังงาน</item>
+        <item>ดัชนีการใช้พลังงาน</item>
+        <item>สรุปประเมินผล</item>
+        <item>ติดต่อผู้ดูแล</item>
+        <item>การตั้งค่า</item>
+        <item>ออกจากระบบ</item>
+    </string-array>
+</resources>

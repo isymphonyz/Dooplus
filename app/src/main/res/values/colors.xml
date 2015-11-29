@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="drawer_background">#303030</color>
+    <color name="drawer_text_color">#FFFFFF</color>
+    <color name="list_item_title">#fff</color>
+    <color name="counter_text_color">#c5c4c4</color>
+
+    <color name="background">#BDB76B</color>
+    <color name="background_02">#EF3F23</color>
+    <color name="background_news">#B2EF3F23</color>
+    <color name="text_color">#000000</color>
+    <color name="text_color_02">#FFFFFF</color>
+    <color name="text_login_color">#000000</color>
+    <color name="text_login_color_02">#BDB76B</color>
+    <color name="text_drawer_color">#FFFFFF</color>
+    <color name="text_gray_color">#95A5A6</color>
+    <color name="background_drawer">#303030</color>
+    <color name="background_drawer_02">#9E1F13</color>
+</resources>
